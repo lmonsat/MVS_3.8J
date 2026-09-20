@@ -1,0 +1,9 @@
+#
+####################################################################
+#                HERCULES EMULATOR SCRIPT FILE                     #
+####################################################################
+#
+# use for attaching new dasd volumes to target MVS 3.8j system 
+#
+attach 180 3380 dasd/pub000.3380
+attach 190 3390 dasd/pub001.3390 cu=3880
