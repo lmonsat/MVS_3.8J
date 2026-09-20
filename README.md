@@ -72,28 +72,28 @@ The complete process is documented in separate, detailed guides to keep this rep
 ### 1. Installation & SysGen
 #### Part 1: Hercules Setup & Prerequisites
 
-Compiling Hercules with zlib and bzip2 support on Arch Linux.
+- Compiling Hercules with zlib and bzip2 support on Arch Linux.
 
-Preparing the Starter System and Tape images.
+- Preparing the Starter System and Tape images.
 
 #### Part 2: DASD Initialization & SysGen (Stage 1 & 2)
 
-Formatting virtual drives with ICKDSF.
+- Formatting virtual drives with ICKDSF.
 
-Applying PTFs and building the distribution libraries.
+- Applying PTFs and building the distribution libraries.
 
 ### 2. Operations & Usage
 #### Part 3: MVS Master Console Guide
 
-Starting (IPL) and shutting down the system.
+- Starting (IPL) and shutting down the system.
 
-Managing JES2, responding to system prompts (Reply), and managing devices (Vary).
+- Managing JES2, responding to system prompts (Reply), and managing devices (Vary).
 
 #### Part 4: TSO & ISPF Fundamentals
 
-Connecting via 3270 emulators (c3270/x3270).
+- Connecting via 3270 emulators (c3270/x3270).
 
-Navigating the ISPF interface and submitting batch jobs (JCL).
+- Navigating the ISPF interface and submitting batch jobs (JCL).
 
 ## Quick Start (Running the System)
 Assuming the SysGen is complete and the DASD volumes are present in the dasd/ directory.
@@ -104,9 +104,9 @@ cd Projects/MVS_3.8j
 hercules -f conf/mvs.cnf
 ```
 IPL the System (from the Hercules console):
-'''text
+```text
 ipl 150
-'''
+```
 Connect the Terminal:
 Open a new terminal window and connect using a 3270 emulator:
 ```bash
@@ -121,7 +121,7 @@ x3270 -model 3279-2 -efont "-xos4-terminus-medium-r-normal--24-240-72-72-c-120-i
 ## Author
 Lilian Monsat
 
-LinkedIn: [https://www.linkedin.com/in/lilian-monsat]
+[LinkedIn](https://www.linkedin.com/in/lilian-monsat)
 
 ## Ressources
 
