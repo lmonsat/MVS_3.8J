@@ -116,7 +116,7 @@ or with a specific font, for me it's the terminus font:
 ```bash
 x3270 -model 3279-2 -efont "-xos4-terminus-medium-r-normal--24-240-72-72-c-120-iso10646-1" console@localhost:3270 &
 ```
-(See the [Console Guide](docs/MVS_startup_shutdown.md) for startup replies and JES2 initialization).
+(See my [Console Guide](docs/MVS_startup_shutdown.md) for startup replies and JES2 initialization).
 
 ## Author
 Lilian Monsat
