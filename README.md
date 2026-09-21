@@ -47,6 +47,7 @@ MVS_3.8J/
 │   └── *.het
 ├── assets/
 │   └── imgs/
+│        └── *.png
 ├── docs/           # Ressources and additionals README.md
 │   ├── *.pdf
 │   └── *.md
@@ -67,7 +68,6 @@ MVS_3.8J/
 ```
 
 ## Documentation Index
-The complete process is documented in separate, detailed guides to keep this repository easily navigable.
 
 ### 1. Installation & SysGen
 #### Part 1: Hercules Setup & Prerequisites
@@ -116,7 +116,7 @@ or with a specific font, for me it's the terminus font:
 ```bash
 x3270 -model 3279-2 -efont "-xos4-terminus-medium-r-normal--24-240-72-72-c-120-iso10646-1" console@localhost:3270 &
 ```
-(See the Console Guide for startup replies and JES2 initialization).
+(See the [Console Guide](docs/MVS_startup_shutdown.md) for startup replies and JES2 initialization).
 
 ## Author
 Lilian Monsat
@@ -126,3 +126,6 @@ Lilian Monsat
 ## Ressources
 
 - https://www.jaymoseley.com/hercules/installMVS/iMVSintroV8.htm
+- [MVS_OS.pdf](docs/MVS_OS.pdf)
+- [MVS_system_commands.pdf](docs/MVS-System-Commands.pdf)
+- [MVS_command_summary.pdf](docs/Volker_Bandke_Command_Summaries.pdf)
