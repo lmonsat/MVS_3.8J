@@ -178,3 +178,8 @@ Type `quit` at the Hercules prompt:
 - `quit`: Safely closes all virtual DASD files, terminates active threads, and shuts down the Hercules emulator without risking filesystem or volume corruption.
 
 <div align="center"><img src="../assets/imgs/Hercules_console_quit.png" alt="Hercules_console_quit" width="70%"/></div>
+
+## Author
+Lilian Monsat
+
+[LinkedIn](https://www.linkedin.com/in/lilian-monsat)
